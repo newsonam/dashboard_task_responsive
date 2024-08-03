@@ -1,0 +1,78 @@
+/* ******** topbar ******** */
+
+
+
+.icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    background-color: grey;
+    border-radius: 50%;
+  }
+
+  @media (max-width: 768px) {
+    .topbar{
+      display: flex;
+      gap:2.5rem;
+    }
+  }
+
+  /* GOALS COMPONEENT */
+
+  .goals{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+  }
+  .flexlay{
+    display: flex;
+    align-items: center;
+    gap:16px;
+  }
+  .arrowcircle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    background-color: grey;
+    border-radius: 50%;
+  }
+  .goalcircle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    background-color: rgb(202, 101, 101);
+    border-radius: 50%;
+  }
+  .dishcircle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    background-color: rgb(79, 68, 204);
+    border-radius: 50%;
+  }
+  .greencircle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    background-color: rgb(33, 166, 170);
+    border-radius: 50%;
+  }
+
+  /* ***********  SIDEBAR *************** */
+
+  .pro-menu-item.active {
+    border-left: 4px solid #6870fa; 
+  }
+  
